@@ -286,6 +286,19 @@ main {
     height: auto;
 }
 
+/* FOOTER STYLES */
+.footer {
+    padding-bottom: 8rem;
+}
+.footer .container {
+    display: flex;
+    align-items: center;
+    gap: 5.5rem;
+}
+.footer p {
+    font-size: 1.5rem;
+}
+
 /* MEDIA QUERIES */
 @media only screen and (max-width: 992px) {
     
@@ -326,6 +339,10 @@ main {
     }
     .about-inner {
         flex-direction: column;
+    }
+    .footer .container {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
