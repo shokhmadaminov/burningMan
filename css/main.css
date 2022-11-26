@@ -252,6 +252,9 @@ h1 {
 }
 
 @media only screen and (max-width: 576px) {
+    .header {
+        padding: 4rem 0 20rem;
+    }
     .header-top {
         justify-content: space-between;
     }
@@ -264,10 +267,33 @@ h1 {
     .left-nav {
         display: block;
     }
+    .header-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-bottom h1 {
+        font-size: 16vw;
+    }
+    .header-bottom h2 {
+        font-size: 2.5rem;
+    }
 }
 
 @media only screen and (max-width: 390px) {
+    .header {
+        padding: 4rem 0 16rem;
+    }
     .container {
         padding: 0 1rem;
+    }
+    .header-bottom h1 {
+        font-size: 15vw;
+    }
+    .header-bottom h2 {
+        font-size: 2rem;
+    }
+    .header-bottom a {
+        font-size: 1.4rem;
     }
 }
